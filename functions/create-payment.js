@@ -21,7 +21,7 @@ exports.handler = async function(event, context) {
       currency: 'KES',
       amount: 950.00,
       description: 'Test Payment',
-      callback_url: 'https://your-netlify-domain.netlify.app/.netlify/functions/callback',
+      callback_url: 'https://canadian-visa-payment.netlify.app/.netlify/functions/callback',
       notification_id: 'cfc9458f-552f-492b-8c0b-dc4ff18883af',
       billing_address: {
         email_address: 'john.doe@example.com',
